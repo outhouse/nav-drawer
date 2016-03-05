@@ -61,7 +61,7 @@ a,button,input,label {
   height:2px;
 }
 
-/* content needs to be fixed in order to prevent scroll position reset on menu activation */
+/* position:fixed prevents scroll position reset on menu activation in Chrome */
 .content {
   position:fixed;
   top:0;
